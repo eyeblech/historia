@@ -1,4 +1,4 @@
-# HISTORIA — The Interactive 13.8-Billion-Year Historical Atlas
+# HISTORIA — The Interactive Historical Atlas
 
 > **From the Big Bang & Ancient Civilizations to Philosophy, Great Revolutions & the Modern AI Age.**
 
@@ -6,7 +6,7 @@
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 1. **Illustrated Atlas (6 Grand Epochs & 27 Curated Milestones)**
    - **I. Cosmic Origins (13.8 BYA – 300k BCE):** The Big Bang Singularity, First Stars & Supernovae, Earth & Abiogenesis, Cambrian Explosion, and *Homo Sapiens* & the Cognitive Revolution.
@@ -29,80 +29,3 @@
 
 ---
 
-## 🚀 How to Run Locally
-
-### Prerequisites
-- **Node.js** (v18+ recommended) and **npm**
-
-### Installation & Development Server
-```bash
-# 1. Clone the repository
-git clone https://github.com/eyeblech/historia.git
-cd historia
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the local development server
-npm run dev
-```
-Then open **`http://localhost:5173`** in your browser.
-
-### Production Build
-```bash
-npm run build
-npm run preview
-```
-The optimized static production bundle is generated in the `dist/` folder.
-
----
-
-## 🌍 How to Deploy on the Web (Free & Live in 60 Seconds)
-
-Because **HISTORIA** compiles into a pure, self-contained static bundle (`dist/`), you can host it globally for **free** with zero backend maintenance:
-
-### Option 1: Deploy on Vercel (Recommended — Fastest)
-1. Go to [vercel.com](https://vercel.com) and sign in with your **GitHub** account.
-2. Click **"Add New Project"** and import your `eyeblech/historia` repository.
-3. Vercel will automatically detect **Vite**:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-4. Click **Deploy**. In ~30 seconds, you will get a live `https://historia-...vercel.app` URL (and every future `git push` will update the site automatically).
-
-### Option 2: Deploy on Netlify
-1. Go to [netlify.com](https://www.netlify.com), click **"Add new site" → "Import an existing project"**, and select `eyeblech/historia` from GitHub.
-2. Set **Build command** to `npm run build` and **Publish directory** to `dist`.
-3. Click **Deploy site**.
-
-### Option 3: Deploy on Cloudflare Pages
-1. Open the [Cloudflare Dashboard](https://dash.cloudflare.com) → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
-2. Select `eyeblech/historia`, set framework preset to **Vite** (`npm run build` / `dist`), and deploy on Cloudflare's global edge network.
-
----
-
-## 📣 How to Promote HISTORIA so Thousands of People See It
-
-Once your live URL is deployed, use this launch playbook to get strong organic traffic from history lovers, students, developers, and educators:
-
-1. **Hacker News (`Show HN`)**
-   - Submit a post titled:
-     > `Show HN: Historia – An interactive 13.8B-year atlas from the Big Bang to the AI Age`
-   - Hacker News readers love fast, information-dense, zero-bloat interactive visual atlases (especially with a custom 60fps Canvas 3D Globe). Post a brief comment explaining why you built it and how the causal links work.
-
-2. **Reddit Communities (High-Engagement Subreddits)**
-   - **r/InternetIsBeautiful** — Share the direct live link; this subreddit is dedicated to unique, interactive educational web apps.
-   - **r/History** & **r/AskHistorians** (check weekly showcase threads) — Highlight the causal chains connecting ancient philosophy to modern revolutions.
-   - **r/Philosophy** — Share how the app links the Axial Age (Buddha, Socrates, Confucius) to Kant, Nietzsche, and the AI era.
-   - **r/webdev** & **r/reactjs** — Share a short screen recording on "Showoff Saturday" showing the 3D Globe zoom/momentum and editorial UI.
-
-3. **Short-Form Video (TikTok, Instagram Reels, YouTube Shorts, X/Twitter)**
-   - Record a **20-second screen capture** zooming into the 3D Globe from Athens to Baghdad to the French Revolution, then clicking into the "Causes & Ripples" tab.
-   - Hook idea: *"I built a website that maps every major revolution, philosophy, war, and invention across 13.8 billion years..."*
-
-4. **Product Hunt & Dev Hunt Launch**
-   - Launch on [Product Hunt](https://www.producthunt.com) under the **Education**, **History**, and **Design Tools** topics with 3–4 crisp screenshots of the Illustrated Atlas, the 3D Interactive Globe, and the Compare modal.
-
-5. **GitHub Topics & Social Preview**
-   - On your GitHub repo page (`https://github.com/eyeblech/historia`), click the ⚙️ gear icon next to **About**, add your live deployed URL, and add topics like:
-     `history` `interactive-atlas` `3d-globe` `philosophy` `timeline` `big-history` `education` `react` `typescript` `vite`.
-   - Upload a screenshot of the app in **Settings → General → Social Preview** so links shared on X, Discord, and Reddit display a rich preview card.
